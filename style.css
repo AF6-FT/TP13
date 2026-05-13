@@ -29,12 +29,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #0077ff;
+    color: #00ff80;
 }
 
-a {
-    text-decoration: none;
-}
 
 button {
     background: #E1306C;
@@ -56,4 +53,14 @@ button:hover {
   margin: 15px; /* espace extérieur */
   border-radius: 12px; /* coins arrondis */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* ombre légère */
+}
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
 }
